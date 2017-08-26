@@ -17,6 +17,7 @@ public interface PersonRepository extends PagingAndSortingRepository<Person, Lon
 	List<Person> findByOtherLanguages(@Param("other") String other);
 	List<Person> findByImage(@Param("image") String image);
 	List<Person> findByTitle(@Param("title") String title);
+
 }
 
 
