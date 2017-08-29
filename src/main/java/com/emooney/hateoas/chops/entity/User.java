@@ -99,7 +99,7 @@ INSERT INTO USER VALUES(4, 'Jenny','SharePoint', 'JavaScript', 'Bash','Harrison'
 INSERT INTO USER VALUES(5, 'Eric','Java', 'JavaScript', 'Java', 'Mooney', 'IT Specialist', 'Java');
 		
 		SELECT * FROM USER ORDER BY ID;
-		UPDATE USER SET WISHLANG1='Groovy' WHERE ID=4;
+		UPDATE USER SET WISHLANG1='Groovy' WHERE ID=5;
 	 * 
 	 * 
 	 */
