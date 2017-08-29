@@ -15,6 +15,9 @@ target/
 *.iml
 *.ipr
 
+## H2 Database
+chopsdb.*
+
 ### NetBeans ###
 nbproject/private/
 build/
