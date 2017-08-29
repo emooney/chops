@@ -92,14 +92,14 @@ public class User {
 	/**
 	 * 
 		CREATE TABLE USER(ID INT PRIMARY KEY, FIRSTNAME VARCHAR(255), LASTNAME VARCHAR(255), TITLE VARCHAR(255), LANG1 VARCHAR(255), LANG2 VARCHAR(255),LANG3 VARCHAR(255),WISHLANG1 VARCHAR(255));
-		INSERT INTO USER VALUES(1, 'Chris','Kramer', 'Validator', 'Selenium', 'JavaScript', 'SharePoint', 'Java');
-		INSERT INTO USER VALUES(2, 'Linda','Willey', 'Analyst', 'SharePoint', 'JavaScript', 'Python', 'Java');
-		INSERT INTO USER VALUES(3, 'Bert','Mooney', 'Validator', 'Selenium', 'JavaScript', 'Java', 'Java');
-		INSERT INTO USER VALUES(4, 'Jenny','Harrison', 'Analyst', 'SharePoint', 'JavaScript', 'Bash', 'Java');
-		INSERT INTO USER VALUES(5, 'Eric','Mooney', 'IT Specialist', 'Java', 'JavaScript', 'Java', 'Java');
+INSERT INTO USER VALUES(1, 'Chris','Selenium', 'JavaScript', 'SharePoint', 'Kramer', 'Analyst', 'Groovy');
+INSERT INTO USER VALUES(2, 'Linda','SharePoint', 'JavaScript', 'Python', 'Willey', 'Analyst', 'Java');
+INSERT INTO USER VALUES(3, 'Bert','Selenium', 'JavaScript', 'Java','Mooney', 'Validator', 'Java');
+INSERT INTO USER VALUES(4, 'Jenny','SharePoint', 'JavaScript', 'Bash','Harrison', 'Analyst', 'Java');
+INSERT INTO USER VALUES(5, 'Eric','Java', 'JavaScript', 'Java', 'Mooney', 'IT Specialist', 'Java');
 		
 		SELECT * FROM USER ORDER BY ID;
-		UPDATE USER SET WISHLANG1='Groovy' WHERE ID=5;
+		UPDATE USER SET WISHLANG1='Groovy' WHERE ID=4;
 	 * 
 	 * 
 	 */
