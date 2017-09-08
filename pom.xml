@@ -17,7 +17,15 @@
 		<version>1.5.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-
+	
+	<distributionManagement>
+	    <snapshotRepository>
+	      <id>work-nexus</id>
+	      <name>Nexus Snapshot</name>
+	      <url>http://96.95.8.202:8091/nexus/content/repositories/snapshots/</url>
+	    </snapshotRepository>	  
+	</distributionManagement>
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
