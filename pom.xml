@@ -22,7 +22,7 @@
 	    <snapshotRepository>
 	      <id>work-nexus</id>
 	      <name>Nexus Snapshot</name>
-	      <url>http://96.95.8.202:8091/nexus/content/repositories/snapshots/</url>
+	      <url>http://localhost:8091/nexus/content/repositories/snapshots/</url>
 	    </snapshotRepository>	  
 	</distributionManagement>
 	
