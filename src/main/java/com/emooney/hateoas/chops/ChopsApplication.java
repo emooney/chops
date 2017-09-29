@@ -8,7 +8,7 @@ public class ChopsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ChopsApplication.class, args);
-		System.out.println("Hello SSA");
+		System.out.println("Hello World");
 	}
 
 
